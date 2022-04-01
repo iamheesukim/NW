@@ -1,0 +1,17 @@
+curl -i -X POST \
+   -H "Content-Type:application/json" \
+   -H "Authorization:Bearer AAAAxiCeKFRG66UjfwYK8/Wsyql7Ei4c6ZP85aIjODusSrnC9aG8YANB18LC53jqxNMY13GDrJenLK4au++Po23uoliZ6yM0p5XfbvjKZt4DuskUBE2PLSn7wvRfzOUpavuRL9ZKFKeyPvj6s2sVwFRDBBqLQsIFE5TPIkTE0+TLRZUwLmn51/dNwWvTcSaK58kBn8PwYBXpPkg5N4h/BjMzhe8FTQVwhePI+wpeAIzHiUDraKkV/oPCXvOs2u0SfmhgudHhry6oYoUr3sJqKdDu9/o=" \
+   -H "consumerKey:cFRAIYVrNoqGbZIAdggU" \
+   -d \
+'{
+  	"invitationUserList" : [
+    	{
+  	    "email": "newheesu@bt.lwba.kr",
+      	"actionType": "insert",
+      	"roleId: 2
+    	}
+    ],
+    "name": "서비스API 추가 캘린더",
+    "description" :"캘린더 설명"
+    }' \
+ 'https://apis.worksmobile.com/r/kr1wdbFNTviif/calendar/v2/users/me/calendarList'
